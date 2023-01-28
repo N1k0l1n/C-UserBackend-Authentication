@@ -108,7 +108,6 @@ namespace UserBackend.Controllers
 
         //LogOut
         [HttpPost]
-        [HttpGet]
         [Route("logout")]
         [SwaggerOperation(
             Summary = "Getting the Authenticated User to Log Out",

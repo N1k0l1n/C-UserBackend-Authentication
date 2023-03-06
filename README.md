@@ -33,9 +33,9 @@ Usage
 Endpoints
 The following endpoints are available:
 
-# POST /api/auth/register - create a new user account
-# POST /api/auth/login - log in as an existing user and receive a JWT token
-# POST /api/auth/logout - log out the current user
+POST /api/auth/register - create a new user account
+POST /api/auth/login - log in as an existing user and receive a JWT token
+POST /api/auth/logout - log out the current user
 The /api/auth/register and /api/auth/login endpoints return a JWT token that you can include in the Authorization header of your requests to access protected endpoints.
 
 ## Authorization
